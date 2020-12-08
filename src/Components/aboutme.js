@@ -37,13 +37,13 @@ class About extends Component {
                             as an Instructor at a Bronx Alternative High School, where I taught an elective "Intro to Programming".
                         </p>
                         <p>
-                            After receiving my BTech in Janurary 2020, the pandemic had hit the US many jobs were in a hiring freeze. I decided 
+                            After receiving my BTech in Janurary 2020, the pandemic had hit the U.S. and many jobs were on a hiring freeze. I decided 
                             to take this opporunity to better myself and my skills. I enrolled in a 15-week bootcamp at Flatiron, where I learned 
-                            indepth knowledge and gained new skills. On October 23, 2020, I officially graduated from Flatiron School. 
+                            indepth knowledge and gained new skills to becoming a Full Stack Web Developer. On October 23, 2020, I officially graduated from Flatiron School. 
                         </p>
                         <p>
-                            While I continue to look for job opportunities, I continue to improve my web 
-                            app <a href="https://www.ratemyapartment.nyc" target="_blank" rel="noreferrer" >Rate My Apartment</a>
+                            When I'm not programming, I enjoy traveling the world and learning about different cultures and their food. I am trying to
+                            accomplish a goal I have set called "40 By 40". Right now I am at 21 Countries!
                         </p>
                 </Cell>
                 </Grid>
