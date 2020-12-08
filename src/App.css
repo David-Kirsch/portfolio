@@ -30,6 +30,15 @@
   color: rgba(220, 224, 226, 1)
 }
 
+.nav-side-bar {
+  margin:auto;
+  background-color: #41545f !important;
+}
+.nav-side-bar a {
+  margin: 15px;
+  color: #dbdfe1;
+}
+
 .profilePic {
   height: 250px;
   width: 250px;

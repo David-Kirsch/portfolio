@@ -26,7 +26,6 @@
 }
 
 .resume-right-col {
-  background: #27221F;
   color: white;
   padding: 2em;
 }
@@ -35,3 +34,14 @@
   border-radius: 50%;
 }
 
+.resume-container {
+  text-align: center;
+}
+
+@media (max-width: 475px){
+  .resume-container embed{
+    width: 90%;
+    height: 100%;
+    background:white;
+  }
+}

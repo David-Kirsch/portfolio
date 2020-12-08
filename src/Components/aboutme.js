@@ -42,8 +42,8 @@ class About extends Component {
                             indepth knowledge and gained new skills. On October 23, 2020, I officially graduated from Flatiron School. 
                         </p>
                         <p>
-                            While I continue to look for job opportunities, I continue to improve my web app 
-                            <a style={{color: 'black'}} href="https://www.ratemyapartment.nyc" target="_blank" rel="noreferrer" > Rate My Apartment</a>
+                            While I continue to look for job opportunities, I continue to improve my web 
+                            app <a href="https://www.ratemyapartment.nyc" target="_blank" rel="noreferrer" >Rate My Apartment</a>
                         </p>
                 </Cell>
                 </Grid>
