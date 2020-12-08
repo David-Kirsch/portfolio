@@ -54,10 +54,16 @@
   margin-bottom: 30px;
 }
 
+.name {
+  font-size: 100px !important;
+}
+
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
+  padding: 0px !important;
+  margin-bottom: 0px;
 }
 
 .banner-text hr {

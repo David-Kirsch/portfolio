@@ -22,13 +22,16 @@
   -moz-background-clip: text;
   background-clip: text;
   font-size: 100px !important;
+  margin-bottom: 0px;
 }
 
 .resume-right-col {
   background: #27221F;
   color: white;
+  padding: 2em;
 }
 
 .resume img {
   border-radius: 50%;
 }
+

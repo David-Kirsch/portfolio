@@ -13,6 +13,7 @@ class LandingPage extends Component {
                         src={ProfilePic} alt="profile" className='profilePic'
                         />
                         <div className='banner-text'>
+                            <h1 className='name'>David Kirsch</h1>
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
                             <p>HTML/CSS | React | JavaScript | Ruby | Ruby on Rails | Java | SQLite | PostgreSQL</p>
