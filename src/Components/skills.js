@@ -29,7 +29,6 @@ class Skills extends Component {
                         <Progress value={4} total={5} active='true' inverted color='green' label='HTML'  />
                         <Progress value={4} total={5} active='true' inverted color='green' label='CSS'  />
                         <Progress value={4} total={5} active='true' inverted color='green' label='GitHub'  />
-                        
                     </Segment>
             </div>
         )
