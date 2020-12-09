@@ -32,7 +32,7 @@ class Projects extends Component {
                       "from around the world without worrying about the language barrier.",
                 frontend: 'https://github.com/David-Kirsch/Lingo-Chat',
                 backend: null,
-                demo: null,
+                demo: "https://www.loom.com/share/308fcd513bc3439582763092c14d676d",
                 website: 'https://thawing-river-87320.herokuapp.com/'
             },
             {
@@ -50,12 +50,12 @@ class Projects extends Component {
             {
                 name: 'PowerUp',
                 img: PowerUpIcon,
-                stack: 'Swift & Xcode',
+                stack: 'Swift',
                 desc: "An educational game built for iOS that helps facilitate the breaking down " +
                       "of base10 number to binary (base2) in a fun and interactive way",
                 frontend: 'https://github.com/David-Kirsch/PowerUp',
                 backend: null,
-                demo: null,
+                demo: "https://www.loom.com/share/5c4df303dd5b45bc9f6662ad54ed05a2",
                 website: null
             }
         ]
