@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import Home from './Components/home';
 import Resume from './Components/resume'
 import Projects from './Components/projects'
-import Contact from './Components/contact'
 import Skills from './Components/skills'
 import { HashLink } from 'react-router-hash-link'
 import ScrollableSection, {ScrollableLink} from 'react-update-url-on-scroll'
@@ -24,7 +23,15 @@ class App extends Component {
               <HashLink smooth to="/#skills">Skills</HashLink>
               <HashLink smooth to="/#resume">Resume</HashLink>
               <HashLink smooth to="/#projects">Projects</HashLink>
-              <HashLink smooth to="/#contact">Contact</HashLink>
+              <div className="container">
+                Connect:
+              </div>
+              <div className="connect">
+                <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>
+                <a href="http://linkedin.com/in/davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
+                <a href="mailto:davidjkirsch@gmail.com"><i class="far fa-envelope"></i></a>
+              </div>
           </Header>
           {window.innerWidth > 800 ? null :
             <Drawer className="nav-side-bar">
@@ -33,7 +40,6 @@ class App extends Component {
                 <HashLink smooth to="/#skills">Skills</HashLink>
                 <HashLink smooth to="/#resume">Resume</HashLink>
                 <HashLink smooth to="/#projects">Projects</HashLink>
-                <HashLink smooth to="/#contact">Contact</HashLink>
             </Drawer>
           }
           <Content>
@@ -57,10 +63,6 @@ class App extends Component {
               <ScrollableSection hash={'projects'}>
               <div id="projects"><br/><br/></div>
               <Projects />
-              </ScrollableSection>
-              <ScrollableSection hash={'contact'}>
-              <div id="contact"><br/><br/></div>
-              <Contact />
               </ScrollableSection>
           </Content>
       </Layout>

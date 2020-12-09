@@ -10,10 +10,10 @@ class Skills extends Component {
                 <h1>Skills</h1>
                     <Segment inverted>
                         <div className='advance_level'>
-                        <Progress value={5} total={5}  inverted color='green' label='advance' />
+                        <Progress value={5} total={5}  inverted color='green' label='Advance' />
                         </div>
                         <div className='intermediate_level'>
-                        <Progress value={3} total={5}  inverted color='yellow' label='intermediate'/>
+                        <Progress value={3} total={5}  inverted color='yellow' label='Intermediate'/>
                         </div>
                         <div className='novice_level'>
                         <Progress value={1} total={5} inverted color='orange' label='Novice' />

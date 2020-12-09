@@ -69,6 +69,11 @@ class Projects extends Component {
                     <Cell col={12}>
                     </Cell>
                 </Grid>
+                <hr/>
+                <div className="footer">
+                    Built & Designed by David Kirsch 2020
+                    <br/>
+                </div>
             </div>
         )
     }

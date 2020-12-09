@@ -127,3 +127,18 @@
 .material-icons {
   color:white;
 }
+
+.connect {
+  margin-left: auto;
+  margin: 0px;
+}
+
+.connect i {
+  font-size: 2em;
+  margin: 0 -10px;
+}
+
+.container {
+  margin-left: auto;
+  font-size: 18px;
+}
