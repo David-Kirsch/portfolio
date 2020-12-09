@@ -37,6 +37,7 @@
 .nav-side-bar a {
   margin: 15px;
   color: #dbdfe1;
+  font-size: 18px;
 }
 
 .profilePic {
@@ -141,4 +142,16 @@
 .container {
   margin-left: auto;
   font-size: 18px;
+}
+
+@media (max-width: 475px){
+  #home {
+    margin-top: -50px;
+  }
+
+  .container {
+    margin-left: 15px;
+    color:  #dbdfe1;
+    margin-top: 10px;
+  }
 }

@@ -40,6 +40,15 @@ class App extends Component {
                 <HashLink smooth to="/#skills">Skills</HashLink>
                 <HashLink smooth to="/#resume">Resume</HashLink>
                 <HashLink smooth to="/#projects">Projects</HashLink>
+                <div className="container">
+                Connect:
+              </div>
+              <div className="connect">
+                <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>
+                <a href="http://linkedin.com/in/davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
+                <a href="mailto:davidjkirsch@gmail.com"><i class="far fa-envelope"></i></a>
+              </div>
             </Drawer>
           }
           <Content>
