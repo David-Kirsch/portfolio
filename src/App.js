@@ -19,12 +19,12 @@ class App extends Component {
       <Layout>
           <Header className='header-color' scroll>
               <HashLink smooth to="/#home">Home</HashLink>
-              <HashLink smooth to="/#aboutme">About Me</HashLink>
+              <HashLink smooth to="/#aboutme">About</HashLink>
               <HashLink smooth to="/#skills">Skills</HashLink>
               <HashLink smooth to="/#resume">Resume</HashLink>
               <HashLink smooth to="/#projects">Projects</HashLink>
               <div className="container">
-                Connect:
+                Connect
               </div>
               <div className="connect">
                 <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>
@@ -36,12 +36,12 @@ class App extends Component {
           {window.innerWidth > 800 ? null :
             <Drawer className="nav-side-bar">
                 <HashLink smooth to="/#home">Home</HashLink>
-                <HashLink smooth to="/#aboutme">About Me</HashLink>
+                <HashLink smooth to="/#aboutme">About</HashLink>
                 <HashLink smooth to="/#skills">Skills</HashLink>
                 <HashLink smooth to="/#resume">Resume</HashLink>
                 <HashLink smooth to="/#projects">Projects</HashLink>
                 <div className="container">
-                Connect:
+                Connect
               </div>
               <div className="connect">
                 <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>

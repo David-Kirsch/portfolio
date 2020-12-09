@@ -7,7 +7,7 @@ class About extends Component {
     render() {
         return (
             <div className="aboutme" id={'aboutme'}>
-                <h1>About Me</h1>
+                <h1>About</h1>
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
@@ -37,13 +37,13 @@ class About extends Component {
                             as an Instructor at a Bronx Alternative High School, where I taught an elective "Intro to Programming".
                         </p>
                         <p>
-                            After receiving my BTech in Janurary 2020, the pandemic had hit the U.S. and many jobs were on a hiring freeze. I decided 
+                            After receiving my BTech in Janurary 2020, the pandemic had hit the U.S. and many companies were on a hiring freeze. I decided 
                             to take this opporunity to better myself and my skills. I enrolled in a 15-week bootcamp at Flatiron, where I learned 
-                            indepth knowledge and gained new skills to becoming a Full Stack Web Developer. On October 23, 2020, I officially graduated from Flatiron School. 
+                            in-depth knowledge and gained new skills to becoming a Full Stack Web Developer. On October 23, 2020, I officially graduated from Flatiron School. 
                         </p>
                         <p>
-                            When I'm not programming, I enjoy traveling the world and learning about different cultures and their food. I am trying to
-                            accomplish a goal I have set called "40 By 40". Right now I am at 21 Countries!
+                            When I'm not programming, I enjoy traveling the world and experiencing different cultures. I have a goal to visit
+                            40 countries by the time I am 40 yrs old. I began traveling 4 years ago, and have visited 21 countries so far!
                         </p>
                 </Cell>
                 </Grid>
