@@ -13,7 +13,7 @@ class Skills extends Component {
                         <Progress value={5} total={5}  inverted color='green' label='advance' />
                         </div>
                         <div className='intermediate_level'>
-                        <Progress value={3} total={5}  inverted color='yellow' label='intermediant'/>
+                        <Progress value={3} total={5}  inverted color='yellow' label='intermediate'/>
                         </div>
                         <div className='novice_level'>
                         <Progress value={1} total={5} inverted color='orange' label='Novice' />
