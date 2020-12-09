@@ -24,7 +24,7 @@ class Skills extends Component {
                         <Progress value={4} total={5} active='true' inverted color='green' label='Ruby on Rails'  />
                         <Progress value={2} total={5} active='true' inverted color='yellow' label='Java'  />
                         <Progress value={1} total={5} active='true' inverted color='orange' label='Swift'  />
-                        <Progress value={3} total={5} active='true' inverted color='yellow' label='SQLite'  />
+                        <Progress value={2} total={5} active='true' inverted color='yellow' label='SQLite'  />
                         <Progress value={1} total={5} active='true' inverted color='orange' label='PostgreSQL'  />
                         <Progress value={4} total={5} active='true' inverted color='green' label='HTML'  />
                         <Progress value={4} total={5} active='true' inverted color='green' label='CSS'  />
