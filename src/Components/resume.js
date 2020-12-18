@@ -12,7 +12,9 @@ class Resume extends Component {
             <div className="resume" id={'resume'}>
                 <h1>Resume</h1>
                     <div className='resume-container'>
-                        <embed src={`${ResumeDoc}#toolbar=1&scrollbar=0`} type="application/pdf"></embed>
+                    <object style={{height: '100vh', width: '50vw'}} data={`${ResumeDoc}?#zoom=85&scrollbar=0&toolbar=1&navpanes=0`} aria-label='resume' type="application/pdf" />
+                   
+                    
                     </div>
             </div>
         )

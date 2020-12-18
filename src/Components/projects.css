@@ -21,7 +21,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    font-size: 100px !important;
+    font-size: 10vw !important;
   } 
 
   .mdl-tabs__tab-bar {

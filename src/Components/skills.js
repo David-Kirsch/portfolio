@@ -7,29 +7,15 @@ class Skills extends Component {
     render() {
         return (
             <div className="skills" id={"skills"}>
-                <h1>Skills</h1>
-                    <Segment inverted>
-                        <div className='advance_level'>
-                        <Progress value={5} total={5}  inverted color='green' label='Advance' />
-                        </div>
-                        <div className='intermediate_level'>
-                        <Progress value={3} total={5}  inverted color='yellow' label='Intermediate'/>
-                        </div>
-                        <div className='novice_level'>
-                        <Progress value={1} total={5} inverted color='orange' label='Novice' />
-                        </div>
-                        <Progress value={4} total={5} active='true' inverted color='green' label='JavaScript'  />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='React' />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='Ruby'  />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='Ruby on Rails'  />
-                        <Progress value={2} total={5} active='true' inverted color='yellow' label='Java'  />
-                        <Progress value={1} total={5} active='true' inverted color='orange' label='Swift'  />
-                        <Progress value={2} total={5} active='true' inverted color='yellow' label='SQLite'  />
-                        <Progress value={1} total={5} active='true' inverted color='orange' label='PostgreSQL'  />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='HTML'  />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='CSS'  />
-                        <Progress value={4} total={5} active='true' inverted color='green' label='GitHub'  />
-                    </Segment>
+                <h1>Skills</h1>  
+                    <table>
+                        <tr><td>JavaScript</td><td>Ruby</td></tr>
+                        <tr><td>React</td><td>Ruby On Rails</td></tr>
+                        <tr><td>Java</td><td>Swift</td></tr>
+                        <tr><td>SQLite</td><td>PostgreSQL</td></tr>
+                        <tr><td>HTML</td><td>CSS</td></tr>
+                        <tr><td>GitHub</td><td>Adobe Photoshop</td></tr>
+                    </table>
             </div>
         )
     }
