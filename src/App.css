@@ -49,6 +49,7 @@
   box-shadow: -2px -2px 2px #5a717d, 2px -2px 2px #5a717d,
                2px 2px 2px 2px #5f727d, -2px 2px 2px 2px #576b77;
   padding: 1px;
+  object-fit: cover !important;
   
 }
 
@@ -165,5 +166,13 @@
     width: 100%;
     left: 0;
     text-align: center;
+  }
+
+  .banner-text{
+    min-width: fit-content;
+  }
+
+  .banner-text h1 {
+    font-size: 50px !important;
   }
 }

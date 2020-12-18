@@ -34,14 +34,21 @@
   border-radius: 50%;
 }
 
-.resume-container {
+.resume-container embed {
+  text-align: center;
+  width: 800px !important;
+  height: 1090px !important;
+}
+
+.resume-container{
   text-align: center;
 }
 
 @media (max-width: 475px){
-  .resume-container embed{
+ 
+
+  .resume-container embed {
     width: 90%;
     height: 100%;
-    background:white;
   }
 }
