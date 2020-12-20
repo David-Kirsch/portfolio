@@ -60,7 +60,7 @@ class Projects extends Component {
             }
         ]
 
-        let myProjectCard = projects.map((project) => <ProjectCard data={project}/>)
+        let myProjectCard = projects.map((project, index) => <ProjectCard data={project} key={index}/>)
         return (
             <div className="projects category-tabs" id={'projects'}>
                 <h1>Projects</h1>

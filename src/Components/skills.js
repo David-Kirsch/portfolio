@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './skills.css'
-import 'semantic-ui-css/semantic.min.css'
-import { Progress, Segment } from 'semantic-ui-react'
+
 
 class Skills extends Component {
     render() {

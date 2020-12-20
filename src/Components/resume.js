@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Cell } from 'react-mdl'
 import './resume.css'
-import DavidDesk from '../images/desk.JPG'
-import Education from './education'
 import ResumeDoc from '../images/David_Kirsch_Resume.pdf'
 
 

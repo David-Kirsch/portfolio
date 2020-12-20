@@ -19,17 +19,17 @@ class LandingPage extends Component {
                             <p>HTML/CSS | React | JavaScript | Ruby | Ruby on Rails | Java | SQLite | PostgreSQL</p>
                             <div className="social-links">
                                 {/*Github */}
-                                <a href="https://github.com/David-Kirsch" target="_blank">
+                                <a href="https://github.com/David-Kirsch" rel="noreferrer" target="_blank">
                                 <i class="fab fa-github-square"></i>
                                 </a>
 
                                 {/*Linked In */}
-                                <a href="http://linkedin.com/in/davidjkirsch" target="_blank">
+                                <a href="http://linkedin.com/in/davidjkirsch" rel="noreferrer" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                                 </a>
 
                                 {/*Medium */}
-                                <a href="https://medium.com/@davidjkirsch" target="_blank">
+                                <a href="https://medium.com/@davidjkirsch" rel="noreferrer" target="_blank">
                                 <i class="fab fa-medium"></i>
                                 </a>
                             </div>

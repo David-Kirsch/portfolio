@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Drawer, Content } from 'react-mdl';
 import AboutMe from './Components/aboutme'
-import { Link } from 'react-router-dom'
 import Home from './Components/home';
 import Resume from './Components/resume'
 import Projects from './Components/projects'
 import Skills from './Components/skills'
 import Contact from './Components/contact'
 import { HashLink } from 'react-router-hash-link'
-import ScrollableSection, {ScrollableLink} from 'react-update-url-on-scroll'
+
 
 
 class App extends Component {
