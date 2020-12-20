@@ -8,6 +8,7 @@ import Projects from './Components/projects'
 import Skills from './Components/skills'
 import Contact from './Components/contact'
 import { HashLink } from 'react-router-hash-link'
+import  ScrollableSection from 'react-update-url-on-scroll'
 
 
 
