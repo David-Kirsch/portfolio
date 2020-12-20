@@ -7,6 +7,7 @@ import Home from './Components/home';
 import Resume from './Components/resume'
 import Projects from './Components/projects'
 import Skills from './Components/skills'
+import Contact from './Components/contact'
 import { HashLink } from 'react-router-hash-link'
 import ScrollableSection, {ScrollableLink} from 'react-update-url-on-scroll'
 
@@ -19,10 +20,11 @@ class App extends Component {
       <Layout>
           <Header className='header-color' scroll>
               <HashLink smooth to="/#home">Home</HashLink>
-              <HashLink smooth to="/#aboutme">About</HashLink>
+              <HashLink smooth to="/#about">About</HashLink>
               <HashLink smooth to="/#skills">Skills</HashLink>
               <HashLink smooth to="/#resume">Resume</HashLink>
               <HashLink smooth to="/#projects">Projects</HashLink>
+              <HashLink smooth to="/#contact">Contact</HashLink>
               <div className="container">
                 Connect
               </div>
@@ -36,10 +38,11 @@ class App extends Component {
           {window.innerWidth > 800 ? null :
             <Drawer className="nav-side-bar">
                 <HashLink smooth to="/#home">Home</HashLink>
-                <HashLink smooth to="/#aboutme">About</HashLink>
+                <HashLink smooth to="/#about">About</HashLink>
                 <HashLink smooth to="/#skills">Skills</HashLink>
                 <HashLink smooth to="/#resume">Resume</HashLink>
                 <HashLink smooth to="/#projects">Projects</HashLink>
+                <HashLink smooth to="/#contact">Contact</HashLink>
                 <div className="container">
                 Connect
               </div>
@@ -57,8 +60,8 @@ class App extends Component {
               <div id="home"><br/><br/></div>
               <Home />
               </ScrollableSection>
-              <ScrollableSection hash={'aboutme'}>
-              <div id="aboutme"><br/><br/></div>
+              <ScrollableSection hash={'about'}>
+              <div id="about"><br/><br/></div>
               <AboutMe />
               </ScrollableSection>
               <ScrollableSection hash={'skills'}>
@@ -72,6 +75,10 @@ class App extends Component {
               <ScrollableSection hash={'projects'}>
               <div id="projects"><br/><br/></div>
               <Projects />
+              <ScrollableSection hash={'contact'}>
+                <div id='contact'><br/><br/></div>
+                <Contact />
+              </ScrollableSection>
               </ScrollableSection>
           </Content>
       </Layout>

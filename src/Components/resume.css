@@ -1,18 +1,4 @@
-.resume {
-  background: #BBD2C5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3c3e48, #536976, #3c3e48);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3c3e48, #536976, #3c3e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* width: 100%; */
-  height: 100%;
-  /* position: fixed; */
-}
 
-#resume {
-  background: #BBD2C5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3c3e48, #536976, #3c3e48);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3c3e48, #536976, #3c3e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 
 .resume h1 {  
   background-color: black;
@@ -21,8 +7,21 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  font-size: 10vw !important;
+  font-size: 5vw !important;
   margin-bottom: 0px;
+  padding-bottom: 0px !important;
+  position: relative;
+}
+
+.resume h1::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: red;
+  top: 100%;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .resume-right-col {
@@ -51,6 +50,10 @@
   .resume-container object{
     width: 100% !important;
     height: 100% !important;
+  }
+
+  .resume h1 {
+    font-size: 10vw !important;
   }
   
 }

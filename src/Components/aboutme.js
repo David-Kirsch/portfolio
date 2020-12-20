@@ -6,7 +6,7 @@ import David from '../images/David.png'
 class About extends Component {
     render() {
         return (
-            <div className="aboutme" id={'aboutme'}>
+            <div className="about" id={'about'}>
                 <h1>About</h1>
                 <Grid>
                     <Cell col={4}>
