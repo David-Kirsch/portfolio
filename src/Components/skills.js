@@ -11,6 +11,7 @@ class Skills extends Component {
                         <tr><td>JavaScript</td><td>Ruby</td></tr>
                         <tr><td>React</td><td>Ruby On Rails</td></tr>
                         <tr><td>Java</td><td>Swift</td></tr>
+                        <tr><td>Python</td><td>Bootstrap</td></tr>
                         <tr><td>SQLite</td><td>PostgreSQL</td></tr>
                         <tr><td>HTML</td><td>CSS</td></tr>
                         <tr><td>GitHub</td><td>Adobe Photoshop</td></tr>
