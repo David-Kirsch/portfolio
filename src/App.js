@@ -31,7 +31,7 @@ class App extends Component {
               <div className="connect">
                 <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>
                 <a href="http://linkedin.com/in/davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
-                <a href="https://medium.com/@davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
+                <a href="https://davidjkirsch.medium.com/" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
                 <a href="mailto:davidjkirsch@gmail.com"><i class="far fa-envelope"></i></a>
               </div>
           </Header>
@@ -49,7 +49,7 @@ class App extends Component {
               <div className="connect">
                 <a href="https://github.com/David-Kirsch" target="_blank" rel="noreferrer"><i class="fab fa-github-square"></i></a>
                 <a href="http://linkedin.com/in/davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
-                <a href="https://medium.com/@davidjkirsch" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
+                <a href="https://davidjkirsch.medium.com/" target="_blank" rel="noreferrer"><i class="fab fa-medium"></i></a>
                 <a href="mailto:davidjkirsch@gmail.com"><i class="far fa-envelope"></i></a>
               </div>
             </Drawer>
