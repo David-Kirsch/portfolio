@@ -196,7 +196,8 @@ body ::-webkit-scrollbar-track {
   }
 
   .banner-text {
-    min-width: fit-content;
+    margin: auto 0;
+    width: 90%;
   }
 
   .banner-text h1 {

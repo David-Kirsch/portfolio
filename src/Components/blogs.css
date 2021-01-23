@@ -23,10 +23,10 @@
 
 .wrapper {
   display: grid; /* 1 */
-  grid-template-columns: repeat(3, 25vw); /* 2 */
-  grid-auto-rows: 50vh; /* 3 */
+  grid-template-columns: repeat(3, 28vw); /* 2 */
+  grid-auto-rows: 70vh; /* 3 */
   grid-gap: 10px; /* 4 */
-  width: 516px;
+  width: 100%;
   margin: 0 auto;
   justify-content: center;
 }
@@ -34,36 +34,49 @@
 .blogCard {
   position: relative;
   width: 25vw;
-  height: 50vh;
+  height: 55vh;
   border: black 1px solid;
-  margin: 5px;
+  margin: 15px 5px;
   border-radius: 8px;
   overflow: hidden;
   background-color: white;
   color: black;
+  box-shadow: 0px 0px 4px 2px #2d2c2c;
+  padding-bottom: 50px;
 }
 
 .thumbnail {
-  height: 50%;
+  position: absolute;
+  height: 40%;
   width: 100%;
   background-position: center;
 }
 
 .avatar {
+  position: relative;
   border-radius: 50%;
   width: 20%;
-  margin-top: -30px;
+  margin-top: 45%;
   border: white 2px solid;
   margin-left: 30px;
   margin-bottom: 10px;
 }
 
+.snippet {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 15px;
+}
+
 .title {
+  position: relative;
   font-weight: 600;
   font-size: 20px;
   margin-left: 5px;
   padding: 10px;
-  border-left: black 3px solid;
+  margin-top: -10px;
+  /* border-left: black 3px solid; */
 }
 
 .author {
@@ -97,6 +110,12 @@ a {
   font-size: 30px;
 }
 
+.time {
+  position: absolute;
+  bottom: 20px;
+  right: 25%;
+}
+
 @media (max-width: 375px) {
   .wrapper {
     display: block;
@@ -109,5 +128,8 @@ a {
 
   .blogCard {
     width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 }
