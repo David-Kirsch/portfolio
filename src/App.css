@@ -1,12 +1,20 @@
-
 .header-color {
-  background: #BBD2C5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3c3e48, #536976, #3c3e48);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3c3e48, #536976, #3c3e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bbd2c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3c3e48,
+    #536976,
+    #3c3e48
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3c3e48,
+    #536976,
+    #3c3e48
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-
   text-align: center;
   /* position: fixed; */
   top: 0;
@@ -17,9 +25,19 @@
 }
 
 .mdl-layout {
-  background: #BBD2C5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3c3e48, #536976, #3c3e48);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3c3e48, #536976, #3c3e48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bbd2c5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3c3e48,
+    #536976,
+    #3c3e48
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3c3e48,
+    #536976,
+    #3c3e48
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .mdl-layout__header--scroll {
@@ -35,11 +53,11 @@ body ::-webkit-scrollbar-track {
 .mdl-layout__header-row a {
   margin: 20px;
   font-size: 18px;
-  color: rgba(220, 224, 226, 1)
+  color: rgba(220, 224, 226, 1);
 }
 
 .nav-side-bar {
-  margin:auto;
+  margin: auto;
   background-color: #41545f !important;
 }
 .nav-side-bar a {
@@ -55,15 +73,14 @@ body ::-webkit-scrollbar-track {
   margin-top: 5em;
   margin-bottom: 2em;
   box-shadow: -2px -2px 2px #5a717d, 2px -2px 2px #5a717d,
-               2px 2px 2px 2px #5f727d, -2px 2px 2px 2px #576b77;
+    2px 2px 2px 2px #5f727d, -2px 2px 2px 2px #576b77;
   padding: 1px;
   object-fit: cover !important;
-  
 }
 
 .banner-text {
-  background-color:#3c3e48;
-  opacity: .8;
+  background-color: #3c3e48;
+  opacity: 0.8;
   width: 75%;
   min-width: min-content;
   margin: auto;
@@ -98,7 +115,6 @@ body ::-webkit-scrollbar-track {
 }
 
 .social-links {
- 
   justify-content: space-between;
   width: 50%px;
   margin: auto;
@@ -109,7 +125,6 @@ body ::-webkit-scrollbar-track {
   color: white;
   font-size: 3em;
   padding: 8px;
- 
 }
 
 .social-links.nav i {
@@ -135,7 +150,7 @@ body ::-webkit-scrollbar-track {
 } */
 
 .material-icons {
-  color:white;
+  color: white;
 }
 
 .connect {
@@ -153,14 +168,18 @@ body ::-webkit-scrollbar-track {
   font-size: 18px;
 }
 
-@media (max-width: 475px){
+.sk_branding {
+  display: none !important;
+}
+
+@media (max-width: 475px) {
   #home {
     margin-top: -50px;
   }
 
   .container {
     margin-left: 25%;
-    color:  #dbdfe1;
+    color: #dbdfe1;
     position: absolute;
     bottom: 50px;
     width: 50%;
@@ -176,7 +195,7 @@ body ::-webkit-scrollbar-track {
     text-align: center;
   }
 
-  .banner-text{
+  .banner-text {
     min-width: fit-content;
   }
 
