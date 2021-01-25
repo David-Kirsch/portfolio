@@ -45,6 +45,11 @@
   padding-bottom: 50px;
 }
 
+.blogListing {
+  font-size: 50px;
+  color: white;
+}
+
 .thumbnail {
   position: absolute;
   height: 40%;
@@ -124,6 +129,10 @@ a {
     align-items: center;
     margin-left: auto;
     right: 0px;
+  }
+
+  .blogs h1 {
+    font-size: 10vw !important;
   }
 
   .blogCard {

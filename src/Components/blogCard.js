@@ -1,17 +1,14 @@
-import React, { createElement } from "react";
+import React from "react";
 import moment from "moment";
 
 function blogCard(props) {
   let snippet = props.data.content.split("<p>");
   snippet = snippet[1].split(" ");
-  snippet.length = 30;
+  snippet.length = 35;
   snippet.push("....");
   snippet = snippet.join(" ");
 
   const wordCount = props.data.content.split(" ").length;
-
-  console.log(wordCount);
-  console.log(props.data.content);
 
   return (
     <a href={props.data.link} target="_blank" rel="noreferrer">
