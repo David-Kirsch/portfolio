@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import BlogCard from "./blogCard";
 import "./blogs.css";
-import { Grid, Cell } from "react-mdl";
 
 export default class blogs extends Component {
   state = {
