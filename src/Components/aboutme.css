@@ -1,63 +1,64 @@
-
-  .about h1 {
-    background-color: black;
-    color: transparent;
-    text-shadow: 2px 2px 3px rgb(67 87 99 / 65%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    font-size: 5vw !important;
-    margin-bottom: 0px;
-    padding: 0px !important;
-    padding-bottom: 0px !important;
-    padding-top: 15px !important;
-    position: relative;
-  }
-
-  .about h1::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    background: red;
-    top: 100%;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
+.about h1 {
+  background-color: black;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgb(67 87 99 / 65%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  font-size: 5vw !important;
+  margin-bottom: 0px;
+  padding: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 15px !important;
+  position: relative;
 }
 
-  .about a {
-    color: rgb(64 130 255);
+.about h1::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: red;
+  top: 100%;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about a {
+  color: rgb(64 130 255);
+}
+
+.about img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.aboutme-right-col p {
+  color: white;
+  font-size: 20px;
+}
+
+.mdl-grid {
+  justify-content: center;
+}
+
+.aboutme-right-col {
+  margin: auto 0;
+}
+
+@media (min-width: 840px) {
+  .mdl-cell--4-col,
+  .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {
+    width: calc(33.333333% - 16px);
   }
 
-  .about img {
-    width: 100%;
-    border-radius: 25px;
-  }
-
-  .aboutme-right-col p{
-    color: white;
-    font-size: 20px;
-  }
-  
-  .mdl-grid {
-    justify-content: center;
-  }
-
-@media (min-width: 840px){
-  .mdl-cell--4-col, .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {
-  width: calc(33.333333% - 16px);
-  }
-
-  .aboutme-right-col{
+  .aboutme-right-col {
     width: 50% !important;
   }
-
 }
 
-@media (max-width: 475px){
-
+@media (max-width: 475px) {
   .about h1 {
     font-size: 10vw !important;
   }
-  
 }
