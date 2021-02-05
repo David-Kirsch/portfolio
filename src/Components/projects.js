@@ -11,7 +11,7 @@ class Projects extends Component {
   render() {
     const projects = [
       {
-        name: "Rate My Apartment - Mobile",
+        name: "Rate My Apartment Mobile",
         img: ApartmentLogo,
         stack: "React Native",
         desc:
@@ -23,7 +23,7 @@ class Projects extends Component {
           "https://www.loom.com/share/a4f518094b8d490c8c4cf3c29ee25f18?sharedAppSource=personal_library",
       },
       {
-        name: "Rate My Apartment - Web",
+        name: "Rate My Apartment Web",
         img: ApartmentLogo,
         stack: "ReactJS and Ruby on Rails",
         desc:

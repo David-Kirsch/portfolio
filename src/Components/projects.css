@@ -1,30 +1,28 @@
-
-
-  .projects h1 {
-    background-color: black;
-    color: transparent;
-    text-shadow: 2px 2px 3px rgb(67 87 99 / 65%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    font-size: 5vw !important;
-    padding-bottom: 0px !important;
-    position: relative;
-  } 
-
-  .projects h1::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    background: red;
-    top: 100%;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
+.projects h1 {
+  background-color: black;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgb(67 87 99 / 65%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  font-size: 5vw !important;
+  padding-bottom: 0px !important;
+  position: relative;
 }
 
-  .mdl-tabs__tab-bar {
-    border-bottom: none !important;
+.projects h1::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background: red;
+  top: 100%;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mdl-tabs__tab-bar {
+  border-bottom: none !important;
 }
 
 .mdl-card__supporting-text {
@@ -45,7 +43,7 @@
 }
 
 .mdl-button {
-  color:blue !important;
+  color: blue !important;
   padding: 0 5px !important;
   /* text-align: center !important; */
   /* line-height: 36px !important; */
@@ -53,7 +51,7 @@
   /* text-align: center !important;  */
   font-size: 12px !important;
 }
-  
+
 .git {
   text-align: center !important;
   border: 1px solid rgb(255, 255, 255);
@@ -65,17 +63,20 @@
 .projects-grid a {
   margin: auto;
   color: rgb(136 171 189);
-  
+}
+
+.mdl-card__supporting-text {
+  overflow: visible !important;
 }
 
 .mdl-card {
   height: 530px !important;
   margin-bottom: 20px !important;
-  background-color:#3c3e48 !important;
+  background-color: #3c3e48 !important;
   color: white !important;
 }
 
-@media (max-width: 475px){
+@media (max-width: 475px) {
   .projects h1 {
     font-size: 10vw !important;
   }
