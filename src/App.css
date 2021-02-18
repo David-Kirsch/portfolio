@@ -177,6 +177,18 @@ body ::-webkit-scrollbar-track {
     margin-top: -50px;
   }
 
+  .hamburger {
+    background: #3f454f !important;
+    box-shadow: 0 0 4px 4px #00000059 !important;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    align-items: center;
+  }
+  i.material-icons.hamburger {
+    font-size: 40px !important;
+  }
+
   .container {
     margin-left: 25%;
     color: #dbdfe1;

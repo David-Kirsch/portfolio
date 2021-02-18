@@ -24,6 +24,10 @@
   transform: translateX(-50%);
 }
 
+.about > div.mdl-grid {
+  margin-top: 50px;
+}
+
 .about a {
   color: rgb(64 130 255);
 }
@@ -50,6 +54,9 @@
   .mdl-cell--4-col,
   .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {
     width: calc(33.333333% - 16px);
+  }
+  .mdl-grid {
+    padding: 0px !important;
   }
 
   .aboutme-right-col {

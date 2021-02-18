@@ -34,9 +34,32 @@
   margin: auto;
 }
 
+.device {
+  background: #0a0a35;
+  width: fit-content;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 20px;
+  z-index: 100;
+  margin: auto;
+  color: white;
+}
+
+.deviceContainer {
+  margin: auto;
+  margin-left: 25px;
+}
+
 .projects-grid h3 {
   text-shadow: -7px -1px 5px black;
 }
+
+.projects > div.mdl-grid {
+  padding: 10px 91px !important;
+}
+
 .project-links {
   display: flex;
   padding-bottom: 15px;
@@ -79,5 +102,9 @@
 @media (max-width: 475px) {
   .projects h1 {
     font-size: 10vw !important;
+  }
+
+  .deviceContainer {
+    margin: auto;
   }
 }

@@ -4,12 +4,24 @@ import ProjectCard from "./projectCard";
 import ApartmentLogo from "../images/RATEMYAPARTMENTLOGO.png";
 import LingoLogo from "../images/LingoLogo.png";
 import GWiz from "../images/G-Wiz.png";
+import WP from "../images/wp_logo.png";
 import PowerUpIcon from "../images/PowerUpIconCopy.png";
 import { Grid, Cell } from "react-mdl";
 
 class Projects extends Component {
   render() {
     const projects = [
+      {
+        name: "The Washington Post Trivia Game",
+        img: WP,
+        stack: "Android Studio / Java",
+        desc:
+          "A fun travia game that tests your knowledge about The Washington Post.",
+        frontend: "https://github.com/David-Kirsch/Android_Trivia_App",
+        demo:
+          "https://www.loom.com/share/e9023bf6fa9245f6b82dc42d97ec8b77?sharedAppSource=personal_library",
+        device: "Mobile App",
+      },
       {
         name: "Rate My Apartment Mobile",
         img: ApartmentLogo,
@@ -21,6 +33,7 @@ class Projects extends Component {
         frontend: "https://github.com/David-Kirsch/RateMyApartmentApp",
         demo:
           "https://www.loom.com/share/a4f518094b8d490c8c4cf3c29ee25f18?sharedAppSource=personal_library",
+        device: "Mobile App",
       },
       {
         name: "Rate My Apartment Web",
@@ -34,6 +47,7 @@ class Projects extends Component {
         // backend: 'https://github.com/David-Kirsch/Rate_My_Landlord',
         demo: "https://www.loom.com/share/2fe1d5160728479490fc447f4d00be1c",
         website: "https://www.ratemyapartment.nyc",
+        device: "Website",
       },
       {
         name: "Lingo Chat",
@@ -46,6 +60,7 @@ class Projects extends Component {
         backend: null,
         demo: "https://www.loom.com/share/308fcd513bc3439582763092c14d676d",
         website: "https://thawing-river-87320.herokuapp.com/",
+        device: "Website",
       },
       {
         name: "G-Wiz",
@@ -59,6 +74,7 @@ class Projects extends Component {
         backend: "https://github.com/David-Kirsch/G-Wiz-api",
         demo: "https://www.loom.com/share/a2adc87e548c4187a4130bfe59dc3817",
         website: null,
+        device: "Website",
       },
       {
         name: "PowerUp",
@@ -71,6 +87,7 @@ class Projects extends Component {
         backend: null,
         demo: "https://www.loom.com/share/5c4df303dd5b45bc9f6662ad54ed05a2",
         website: null,
+        device: "Mobile App",
       },
     ];
 
