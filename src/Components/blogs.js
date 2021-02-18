@@ -57,9 +57,9 @@ export default class blogs extends Component {
   };
 
   render() {
-    const renderBlogs = this.state.sortedBlogs.map((blog) => (
-      <BlogCard data={blog} avatar={this.state.avatar} />
-    ));
+    const renderBlogs = this.state.sortedBlogs
+      .slice(0, 9)
+      .map((blog) => <BlogCard data={blog} avatar={this.state.avatar} />);
 
     return (
       <div className="blogs" id={"blogs"}>
