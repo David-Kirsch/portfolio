@@ -20,6 +20,10 @@ class Skills extends Component {
             <td>Swift</td>
           </tr>
           <tr>
+            <td>React Native</td>
+            <td>Android Studio</td>
+          </tr>
+          <tr>
             <td>Python</td>
             <td>Bootstrap</td>
           </tr>
@@ -30,10 +34,6 @@ class Skills extends Component {
           <tr>
             <td>HTML</td>
             <td>CSS</td>
-          </tr>
-          <tr>
-            <td>React Nativ</td>
-            <td>Git</td>
           </tr>
           <tr>
             <td>GitHub</td>
