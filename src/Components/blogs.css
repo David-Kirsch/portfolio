@@ -31,6 +31,22 @@
   justify-content: center;
 }
 
+img.published {
+  width: 25%;
+  z-index: 10;
+  position: absolute;
+  bottom: 75px;
+  right: 25px;
+}
+
+img.publication-icon {
+  z-index: 9;
+  width: 15%;
+  border-radius: 30px;
+  bottom: 5px;
+  right: 3px;
+}
+
 .blogCard {
   position: relative;
   width: 25vw;
