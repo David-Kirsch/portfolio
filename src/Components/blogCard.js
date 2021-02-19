@@ -3,14 +3,16 @@ import moment from "moment";
 import Nerd from "../images/nerd.png";
 import DDI from "../images/DDI.png";
 import StartUp from "../images/thestartup.jpeg";
-import Published from "../images/published.png";
+import Published from "../images/publishedIn.png";
 import Noteworthy from "../images/noteworthy.png";
+import JS from "../images/jsIcon.png";
 
 function blogCard(props) {
   console.log(props.data.link);
   let icon;
   const publisher = props.data.link.split("/");
-  const publication = publisher[3];
+  const publication =
+    publisher[2] === "medium.com" ? publisher[3] : publisher[2];
 
   let snippet = props.data.content.split("<p>");
   snippet = snippet[1].split(" ");
@@ -30,13 +32,15 @@ function blogCard(props) {
     case "swlh":
       icon = StartUp;
       break;
+    case "blog.usejournal.com":
+      icon = Noteworthy;
+      break;
+    case "js.plainenglish.io":
+      icon = JS;
+      break;
     default:
       icon = null;
       break;
-  }
-
-  if (publisher[2] === "blog.usejournal.com") {
-    icon = Noteworthy;
   }
 
   return (
