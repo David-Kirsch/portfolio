@@ -8,7 +8,6 @@ import Noteworthy from "../images/noteworthy.png";
 import JS from "../images/jsIcon.png";
 
 function blogCard(props) {
-  console.log(props.data.link);
   let icon;
   const publisher = props.data.link.split("/");
   const publication =
@@ -16,8 +15,10 @@ function blogCard(props) {
 
   let snippet = props.data.content.split("<p>");
   snippet = snippet[1].split(" ");
-  snippet.length = 35;
-  snippet.push("....");
+  snippet.length = 30;
+  snippet.push(
+    ".... <span style='color:blue; font-weight:bold'>Read more</span>"
+  );
   snippet = snippet.join(" ");
 
   const wordCount = props.data.content.split(" ").length;
@@ -26,7 +27,7 @@ function blogCard(props) {
     case "nerd-for-tech":
       icon = Nerd;
       break;
-    case "datadriveninvestor":
+    case "medium.datadriveninvestor.com":
       icon = DDI;
       break;
     case "swlh":

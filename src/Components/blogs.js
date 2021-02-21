@@ -25,8 +25,8 @@ export default class blogs extends Component {
           avatar: data.feed.image,
         });
       });
-    setTimeout(this.getImages, 1000);
-    setTimeout(this.sortblogs, 4000);
+    setTimeout(this.getImages, 2000);
+    setTimeout(this.sortblogs, 5000);
   };
 
   getImages = () => {
