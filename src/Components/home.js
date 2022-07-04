@@ -14,7 +14,7 @@ class LandingPage extends Component {
                         />
                         <div className='banner-text'>
                             <h1 className='name'>David Kirsch</h1>
-                            <h1>Android &amp; Web Developer</h1>
+                            <h1>Software Engineer &lpar;Android &amp; Web&rpar;</h1>
                             <hr/>
                             <p>Kotlin | React | JavaScript | Ruby | Ruby on Rails | Java | HTML/CSS | SQLite | PostgreSQL</p>
                             <div className="social-links">
