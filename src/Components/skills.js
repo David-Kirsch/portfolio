@@ -8,6 +8,10 @@ class Skills extends Component {
         <h1>Skills</h1>
         <table>
           <tr>
+            <td>Kotlin</td>
+            <td>AWS</td>
+          </tr>
+          <tr>
             <td>JavaScript</td>
             <td>Ruby</td>
           </tr>
