@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./aboutme.css";
 import { Grid, Cell } from "react-mdl";
-import David from "../images/David.png";
+import David from "../images/David Headshot.png";
 
 class About extends Component {
   render() {
